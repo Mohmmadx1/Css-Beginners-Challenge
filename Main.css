@@ -1,0 +1,222 @@
+.body{
+    background-color: rgb(167, 167, 167);
+
+}
+
+
+.box {
+    font-size: 13px;
+    display: grid;
+    gap: 20px 20px;
+    background-color: rgb(167, 167, 167);
+    grid-template-areas: 
+    "c1 c1 c2 c3"
+    "c1 c1 c2 c3"
+    "c4 c5 c5 c3";
+    margin: 20px;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+    outline-color: rgb(167, 167, 167);;
+    
+
+}
+.card1 {
+    grid-area:c1;
+    color: aliceblue;
+    background-color:  hsl(263, 55%, 52%);
+    border-radius:10px ;
+    padding: 25px;
+    background-image:url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position-x: 400px;
+    background-position-y: 20px;
+}
+.card2 {
+    grid-area: c2;
+    background-color:hsl(217, 19%, 35%) ;  
+    border-radius:10px ;
+    padding: 25px;
+}
+.card3 {
+    grid-area: c3;
+    background-color: hsl(0, 0%, 100%);
+    border-radius:10px ;
+    padding: 55px;
+}
+.card4 {
+    grid-area: c4;
+background-color:hsl(0, 0%, 100%) ;
+border-radius:10px ;
+padding: 25px;
+}
+.card5 {
+    grid-area: c5;
+background-color:hsl(219, 29%, 14%) ;
+border-radius:10px ;
+padding: 25px;
+}
+
+.img1 {
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 30px;
+    position: relative;
+    top: 10px;
+}
+.namecard-1 {
+font-weight: 500;
+position: relative;
+bottom: 20px;
+
+}
+.namecard-1-2 {
+    opacity: 50%;
+    position: relative;
+    left: 85px;
+    bottom: -5px;
+}
+.desc {
+    font-size: 20px;
+}
+.desc2 {
+color: hsl(0, 0%, 81%);
+font-family: 'Barlow Semi Condensed', sans-serif;
+}
+/* secound-card */
+.img2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 30px;
+    position: relative;
+    top: 10px;
+}
+.namecard-2 {
+    color: aliceblue;
+    font-weight: 500;
+position: relative;
+bottom: 20px;
+color: white;
+
+}
+.namecard-2-2 {
+    color: aliceblue;
+    opacity: 50%;
+    position: relative;
+    left: 83px;
+    bottom: 26px;
+    color: white;
+
+}
+.desc2-1 {
+    font-size: 20px;
+    color: white;
+
+
+}
+.desc2-2 {
+font-size: 15px;
+color: hsl(0, 0%, 81%);
+}
+/* Third-Card */
+.img3 {
+    border-radius: 50px;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.namecard-3 {
+    color:hsl(217, 19%, 35%) ;  
+
+    font-weight: 500;
+position: relative;
+bottom: 55px;
+left: 70px;
+font-size: 13px;
+}
+.namecard-3-2{
+    color: hsl(0, 0%, 81%);
+    position: relative;
+bottom: 62px;
+left: 70px;
+font-size: 13px;
+}
+.desc3-1{
+    color:hsl(217, 19%, 35%) ; 
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+}
+.desc3-2{
+    color:hsl(217, 19%, 35%) ; 
+
+}
+/* Forth-Card */
+.img4{
+        border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.namecard-4 {
+color:hsl(217, 19%, 35%) ;  
+font-weight: 500;
+position: relative;
+bottom: 55px;
+left: 60px;
+font-size: 13px;
+}
+.namecard-4-2 {
+    color: hsl(0, 0%, 81%);
+    position: relative;
+bottom: 62px;
+left: 60px;
+font-size: 13px;
+}
+.desc4-1 {
+    color:hsl(217, 19%, 35%) ; 
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+}
+.desc4-2 {
+    color:hsl(217, 19%, 35%) ; 
+    font-size: 16px;
+}
+/* Fivth-card */
+.img5{
+    border-radius: 50px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50px;
+    margin-right: 30px;
+}
+.namecard-5 {
+    color:hsl(0, 0%, 100%) ;  
+font-weight: 500;
+position: relative;
+bottom: 55px;
+left: 60px;
+font-size: 13px;
+}
+.namecard-5-2 {
+    color: hsl(0, 0%, 81%);
+    position: relative;
+bottom: 62px;
+left: 60px;
+font-size: 13px;
+}
+.desc5-1 {
+    color:hsl(0, 0%, 100%) ; 
+    font-size: 20px;
+    position: relative;
+    bottom: 55px;
+}
+.desc5-2 {
+    color: hsl(0, 0%, 81%);
+    position: relative;
+    bottom: 36px;
+}
+/* Project-Date28-7-2023 */
